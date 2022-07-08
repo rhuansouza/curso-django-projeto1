@@ -10,3 +10,4 @@ django-admin startproject projeto .
 
 --inicia servidor
 python manage.py runserver
+python manage.py startapp recipes

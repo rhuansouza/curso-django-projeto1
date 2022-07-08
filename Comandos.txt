@@ -1,0 +1,12 @@
+
+python -m venv venv   --criar pasta virtual
+
+ctrl+shift+p setar python do env
+
+django-admin --help
+
+--criar projeto
+django-admin startproject projeto .
+
+--inicia servidor
+python manage.py runserver

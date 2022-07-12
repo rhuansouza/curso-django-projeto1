@@ -11,3 +11,6 @@ django-admin startproject projeto .
 --inicia servidor
 python manage.py runserver
 python manage.py startapp recipes
+
+--coleta arquivos estaticos do projeto
+python manage.py collectstatic

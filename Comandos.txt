@@ -20,3 +20,6 @@ python manage.py makemigrations
 
 --fazer a migração para base de dados
 python manage.py migrate
+
+--criando usuario painel administrativo
+python manage.py createsuperuser

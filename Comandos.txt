@@ -23,3 +23,6 @@ python manage.py migrate
 
 --criando usuario painel administrativo
 python manage.py createsuperuser
+
+--abrir django shell
+python manage.py shell

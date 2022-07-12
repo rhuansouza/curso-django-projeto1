@@ -5,14 +5,14 @@ ctrl+shift+p setar python do env
 
 django-admin --help
 
---criar projeto
-django-admin startproject projeto .
+--criar project
+django-admin startproject project .
 
 --inicia servidor
 python manage.py runserver
 python manage.py startapp recipes
 
---coleta arquivos estaticos do projeto
+--coleta arquivos estaticos do project
 python manage.py collectstatic
 
 --gerar migrations

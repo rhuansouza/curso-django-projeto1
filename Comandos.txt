@@ -14,3 +14,9 @@ python manage.py startapp recipes
 
 --coleta arquivos estaticos do projeto
 python manage.py collectstatic
+
+--gerar migrations
+python manage.py makemigrations
+
+--fazer a migração para base de dados
+python manage.py migrate
